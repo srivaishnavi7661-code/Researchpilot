@@ -188,6 +188,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 See the full [LICENSE](./LICENSE) file for details.
 
----
 
-<p align="center">Built with ❤️ by the ResearchPilot team · <a href="https://github.com/your-username/researchpilot">GitHub</a></p>
