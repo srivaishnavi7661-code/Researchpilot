@@ -21,7 +21,7 @@ app = Flask(__name__, static_folder='static', template_folder='templates')
 CORS(app)
 
 # Configure Gemini (for backward compatibility, but logic moved to researchpilot.py)
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", " ")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
 if GOOGLE_API_KEY:
     genai.configure(api_key=GOOGLE_API_KEY)
     model = genai.GenerativeModel('gemini-2.5-flash')
